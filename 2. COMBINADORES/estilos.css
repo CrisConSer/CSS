@@ -1,0 +1,28 @@
+/* Estilo para todos los elementos <h> en el documento */
+h2,h3{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para todos los elementos <a> en el documento */
+.contenedor a{
+  text-decoration: none;
+  color: firebrick
+}
+
+/* Estilo para todos los elementos <a> en el documento que sean hijos directos de contenedor se usa > */
+
+.contenedor > a{
+  font-size: 20px;
+  font-weight: bold; /*Negrita*/
+}
+
+/* Estilo para el <p> después del <h2> */
+h2 + p{
+  color: gold;
+}  
+
+/* Estilo para los párrafos después de <h3> que son hermanos */
+h3 ~ p {
+  color:indigo; /* Color índigo */
+}
