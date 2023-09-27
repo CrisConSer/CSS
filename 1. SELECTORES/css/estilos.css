@@ -1,0 +1,60 @@
+/* Selector para todos los elementos h2 */
+h2 {
+  color: green;
+}
+
+/* Estilo para el contenedor <nav> */
+nav {
+  border: 2px solid black; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
+  padding: 10px; /* Opcional: añade espacio interno al contenedor para que el borde no esté pegado al contenido */
+}
+
+/* Añadir un borde a section*/
+#section{
+  border: 3px solid black;
+}
+
+/* Estilo para el elemento h2 con la clase "centro" dentro de la sección */
+section h2.centro{
+  text-align: center;
+}
+
+/* Estilo para el elemento <p> que contiene un emoji */
+p.emoji-paragraph {
+  color: darkblue;
+}
+
+/* Estilo para quitar el subrayado de los elementos con atributo href */
+a[href] {
+  text-decoration: none;
+}
+
+/*Dar un valor al elemento que contenga el https://facebook.org*/
+a[href^="https://facebook.org"]{
+  color:red
+}
+
+/*Dar un valor al elemento que contenga el hsttps*/
+a[href^="hsttps"]{
+  color:green
+}
+
+/*Dar un valor al elemento que contenga .org */
+a[href*=".org"]{
+  background-color: pink;
+}
+
+/*Dar un valor al elemento que contenga el dominio gmail */
+a[href*="gmail"]{
+  background-color: rgb(31, 161, 221);
+}
+
+
+
+
+
+
+
+
+
+
